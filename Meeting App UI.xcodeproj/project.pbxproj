@@ -11,6 +11,11 @@
 		C45DCD0226AA0E2D00F6010F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD0126AA0E2D00F6010F /* ContentView.swift */; };
 		C45DCD0426AA0E2E00F6010F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45DCD0326AA0E2E00F6010F /* Assets.xcassets */; };
 		C45DCD0726AA0E2E00F6010F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45DCD0626AA0E2E00F6010F /* Preview Assets.xcassets */; };
+		C45DCD1026AA100800F6010F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD0F26AA100800F6010F /* Home.swift */; };
+		C45DCD1326AA149D00F6010F /* Meeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD1226AA149D00F6010F /* Meeting.swift */; };
+		C45DCD1526AA154100F6010F /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD1426AA154100F6010F /* HomeViewModel.swift */; };
+		C45DCD1726AA163600F6010F /* MeetingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD1626AA163500F6010F /* MeetingCardView.swift */; };
+		C45DCD1926AA1BE600F6010F /* AddMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45DCD1826AA1BE600F6010F /* AddMeeting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C45DCD0126AA0E2D00F6010F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C45DCD0326AA0E2E00F6010F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45DCD0626AA0E2E00F6010F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C45DCD0F26AA100800F6010F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C45DCD1226AA149D00F6010F /* Meeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meeting.swift; sourceTree = "<group>"; };
+		C45DCD1426AA154100F6010F /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C45DCD1626AA163500F6010F /* MeetingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingCardView.swift; sourceTree = "<group>"; };
+		C45DCD1826AA1BE600F6010F /* AddMeeting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeeting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,9 @@
 		C45DCCFE26AA0E2D00F6010F /* Meeting App UI */ = {
 			isa = PBXGroup;
 			children = (
+				C45DCD1126AA147000F6010F /* Model */,
+				C45DCD0E26AA0FF100F6010F /* ViewModel */,
+				C45DCD0D26AA0FE400F6010F /* View */,
 				C45DCCFF26AA0E2D00F6010F /* Meeting_App_UIApp.swift */,
 				C45DCD0126AA0E2D00F6010F /* ContentView.swift */,
 				C45DCD0326AA0E2E00F6010F /* Assets.xcassets */,
@@ -65,6 +78,32 @@
 				C45DCD0626AA0E2E00F6010F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C45DCD0D26AA0FE400F6010F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C45DCD0F26AA100800F6010F /* Home.swift */,
+				C45DCD1626AA163500F6010F /* MeetingCardView.swift */,
+				C45DCD1826AA1BE600F6010F /* AddMeeting.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C45DCD0E26AA0FF100F6010F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C45DCD1426AA154100F6010F /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C45DCD1126AA147000F6010F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45DCD1226AA149D00F6010F /* Meeting.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +177,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C45DCD0226AA0E2D00F6010F /* ContentView.swift in Sources */,
+				C45DCD1326AA149D00F6010F /* Meeting.swift in Sources */,
+				C45DCD1026AA100800F6010F /* Home.swift in Sources */,
+				C45DCD1526AA154100F6010F /* HomeViewModel.swift in Sources */,
+				C45DCD1726AA163600F6010F /* MeetingCardView.swift in Sources */,
+				C45DCD1926AA1BE600F6010F /* AddMeeting.swift in Sources */,
 				C45DCD0026AA0E2D00F6010F /* Meeting_App_UIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
